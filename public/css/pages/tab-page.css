@@ -44,11 +44,13 @@ Vertical tabs
     padding: 20px;
     vertical-align: top; }
 
-.tabs-vertical li .nav-link.active,
+.tabs-vertical li .nav-link.active{
+  background: #03a9f3;
+  color: #fff; }
+
 .tabs-vertical li .nav-link:hover,
 .tabs-vertical li .nav-link.active:focus {
-  background: #fb9678;
-  border: 0px;
+  background: #038fcd;
   color: #fff; }
 
 /*Custom vertical tab*/
@@ -70,8 +72,11 @@ Vertical tabs
   margin-right: 3px;
   color: #212529; }
   .customtab2 li a.nav-link.active {
-    background: #fb9678;
+    background: #03a9f3;
     color: #fff; }
   .customtab2 li a.nav-link:hover {
     color: #fff;
-    background: #fb9678; }
+    background: #03a9f3; }
+    .customtab2 li a.nav-link.active:hover{
+      background: #038fcd;
+    }

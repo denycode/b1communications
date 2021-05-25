@@ -1,0 +1,1501 @@
+/*@media only screen and (max-width: 768px) {*/
+
+    /*.tooltip-overflow {*/
+        /*overflow: auto;*/
+    /*}*/
+
+    /*.buzz-comment {*/
+        /*margin-left: 0px;*/
+
+    /*}*/
+
+    /*.doc-heading {*/
+
+        /*text-align: center;*/
+    /*}*/
+
+    /*.doc-border {*/
+
+        /*text-align: center;*/
+    /*}*/
+/*}*/
+
+/*@media all and (max-width: 1250px) and (min-width: 768px) {*/
+
+    /*.app-search .easy-autocomplete.eac-square input {*/
+        /*min-width: 245px;*/
+    /*}*/
+
+    /*.app-search .easy-autocomplete.eac-square.eac-description {*/
+        /*width: 245px !important;*/
+    /*}*/
+
+/*}*/
+
+@media all and (max-width: 1280px) and (min-width: 800px) {
+    #container .grid > li {
+        width: 358px;
+    }
+    .milestone-scroller {
+        height: 1071px;
+    }
+
+    .Activity_timeline .steamline .sl-right {
+        width: 95%;
+    }
+    .project-body {
+        max-height: 1008px;
+    }
+    .single_project {
+        float: left;
+        width: 84.7%;
+        margin-left: 15%;
+        transition: all 1s;
+        min-height: 1185px;
+        background: #fff;
+    }
+    .white-box {
+        min-height: 1182px;
+    }
+    .sug-pagination .dataTables_paginate {
+        right: 25%;
+    }
+
+    .master-paging .dataTables_paginate {
+        right: 20%;
+        top: 75px;
+    }
+
+    .sug-pagination .dataTables_paginate {
+        right: 25%;
+    }
+
+    .main-right-open .right-sidebar {
+        display: block !important;
+    }
+
+    .right-sidebar {
+        display: none !important;
+    }
+
+    .atch-img:nth-child(6) .more-img {
+        width: 145px !important;
+        height: 145px !important;
+    }
+
+    .single-milestone-pagination .dataTables_paginate {
+        margin-top: 79px;
+        right: 55%;
+    }
+
+    .ticket-desc .dropdown-menu {
+        margin-left: -86px;
+    }
+
+    .ml-single-search {
+        margin-right: -2%;
+    }
+
+    .prmeeting-list-sort {
+        margin-right: 10px;
+    }
+
+    .people-leaderboard .table-search {
+        width: 150px !important;
+        right: 39% !important;
+    }
+
+    .people-pagination .dataTables_paginate {
+        right: 60% !important;
+    }
+
+    .service-ticket-pagination .dataTables_paginate {
+        right: 14%;
+        top: 37px;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 38%;
+        top: 60px;
+    }
+
+    /*.all-pagination .dataTables_paginate {*/
+    /*right: 14%;*/
+    /*top: 38px;*/
+    /*}*/
+    #side-menu > li > a
+    .cal-drop-ul {
+        float: left;
+        width: 22%;
+        margin-top: 37px;
+    }
+
+    #filter_selector {
+        position: absolute;
+        top: 0;
+        width: 18%;
+    }
+
+    .main-wall .wall-tabs {
+        border-bottom: 0;
+    }
+
+    .my-feed .feed-group li a, .feed-fav li a {
+        padding: 0;
+    }
+
+    .my-feed img {
+        padding-right: 1px !important;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 44%;
+        top: 39px;
+    }
+
+    a.dropdown-toggle.profile-pic b.hidden-xs {
+        font-size: 16px;
+    }
+
+    .my_day_task_dashboard a.dev_status.dev_popover {
+        top: -26px;
+        right: -30px;
+    }
+
+    .exportcsv .my-ticket-pagination .dataTables_paginate {
+        right: 54%;
+        top: 59px;
+    }
+
+    .wall .wall-right-sidebar {
+        width: 23%;
+    }
+
+    .parent-atch-img .atch-img {
+        width: 152px;
+        height: 152px;
+    }
+
+    .footer-copyright.pull-right label {
+        font-size: 11px;
+    }
+
+    .footer {
+        padding: 2px 16px;
+    }
+
+    .ticket-comment-sidebar {
+        width: 100% !important;
+    }
+
+    .ticket-desc .page-title {
+        font-size: 16px;
+    }
+
+    .tc-detail label {
+        font-size: 14px;
+    }
+
+    .tc-detail p {
+        font-size: 13px;
+    }
+
+    .tc-detail a {
+        font-size: 13px;
+    }
+
+    .project_tickets_list li a {
+        font-size: 12px;
+    }
+
+    .about-workdesk-section-main {
+        margin-left: 50px;
+    }
+    .overlay-content {
+        height: 94% !important;
+    }
+
+    .sticky_inner {
+        left: -200px!important;
+    }
+    .ticket-pagination .dataTables_paginate {
+        right: 54%;
+        top: 57px;
+    }
+    .tickets-showentries.no-padding {
+        width: 100%;
+        float: left;
+    }
+    div#tickets_table_wrapper .dataTables_wrapper.no-footer .dataTables_scrollBody {
+        max-height: 85vh !important;
+    }
+    .panel-blue, .panel-info {
+        height: 1147px;
+    }
+    .trending-list i.fa.fa-picture-o {
+        margin-left: -2px;
+    }
+    .trending-post-main {
+        width: 86%;
+    }
+    .trending-list h3 {
+        width: 125px !important;
+    }
+    .column-master-setting {
+        width: 100%;
+        float: left;
+        min-height: 252px;
+    }
+    .setting-page-whole {
+        height: 1145px;
+    }
+    .setting-tab-dropdownn .slimScrollDiv {
+        top: 6% !important;
+    }
+}
+
+@media all and (max-width: 1280px) and (min-width: 800px) and (orientation: landscape) {
+    html {
+        background: none !important;
+    }
+    .fc-scroller.fc-day-grid-container {
+         height: 559px !important;
+    }
+    .single_project .dataTables_scroll .dataTables_scrollBody {
+        height: 533px !important;
+    }
+    .project-body {
+        max-height: 619px;
+    }
+
+    div#tickets_table_wrapper .dataTables_wrapper.no-footer .dataTables_scrollBody {
+        max-height: 76vh !important;
+    }
+    .wall-content {
+        width: 90% !important;
+    }
+    .exportcsv .my-ticket-pagination .dataTables_paginate {
+        right: 54%;
+        top: 2px;
+    }
+    .white-box {
+        min-height: 693px;
+    }
+
+    #wrapper #page-wrapper {
+        padding-top: 10px;
+        padding-bottom: 26px;
+        overflow: auto;
+        height: 730px;
+        margin-top: 47px;
+    }
+
+    #container .grid > li {
+        width: 395px;
+    }
+
+    .master-paging .dataTables_paginate {
+        right: 13%;
+        top: 24px;
+    }
+
+    .main-right-open .right-sidebar {
+        display: block !important;
+    }
+
+    .right-sidebar {
+        display: none !important;
+    }
+
+    .notes-heading .prmeeting-list-sort {
+        margin-right: 0;
+    }
+
+    .ticket-pagination .dataTables_paginate {
+        right:  53%;
+        top: 1px;
+    }
+    .overlay-content {
+        height: 90.7% !important;
+    }
+
+    .project-sidebar-min .workdesk-task li {
+        height: 74px;
+    }
+
+    .dropdown-backdrop {
+        position: relative;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 54%;
+        top: 1px;
+    }
+
+    a.dropdown-toggle.profile-pic b.hidden-xs {
+        font-size: 16px;
+    }
+    .milestone-scroller {
+        height: 598px;
+    }
+    .single_project {
+        float: left;
+        width: 84.7%;
+        margin-left: 15%;
+        transition: all 1s;
+        min-height: 706px;
+        background: #fff;
+    }
+    .panel-blue, .panel-info {
+        height: 672px;
+    }
+    .column-master-setting {
+        width: 100%;
+        float: left;
+        min-height: 252px;
+    }
+    .setting-page-whole {
+        height: 668px;
+    }
+    .setting-tab-dropdownn .slimScrollDiv {
+        top: 10% !important;
+    }
+}
+
+
+/******************************************************************************************************************************************
+
+responsive css for Workdesk
+
+*******************************************************************************************************************************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #side-menu > li > a {
+        font-size: 10px;
+    }
+
+    .task-pagination .dataTables_paginate {
+        right: 65%;
+        top: 38px;
+    }
+
+    .dropdown-backdrop {
+        position: relative;
+    }
+
+    .section-setting-heading label {
+        margin-left: 6px;
+        font-size: 12px !important;
+    }
+
+    .main-setting-tab .personal-settings-tab label {
+        font-size: 17px;
+    }
+
+    .logo span > img {
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+
+    .add-icon li a {
+        padding: 0px 4px;
+    }
+
+    .add-icon li i {
+        font-size: 12px;
+    }
+
+    .navbar-top-links > li > a {
+        padding: 0px 2.5px;
+        line-height: 47px;
+        min-height: 47px;
+    }
+
+    .navbar-top-links {
+        margin-right: 0;
+        margin-left: -40px;
+    }
+
+    .login-box-outer .white-box {
+        min-height: auto;
+        width: fit-content;
+    }
+
+    .section-setting-heading label {
+        margin-left: 6px;
+        font-size: 12px !important;
+    }
+
+    .dashboard-header h1 {
+        font-size: 17px;
+    }
+
+    #wrapper #page-wrapper {
+        height: 1205px;
+    }
+
+    .single_project .dataTables_scroll .dataTables_scrollBody {
+        height: 987px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    p {
+        font-size: 12px;
+    }
+
+
+    .add-icon li i {
+        font-size: 13px;
+    }
+
+    .navbar-top-links > li > a {
+        padding: 0 5px;
+        line-height: 46px;
+    }
+
+    #side-menu > li > a {
+        font-size: 12px;
+    }
+
+    .ticket-pagination .dataTables_paginate {
+        right: 63%;
+    }
+
+    .dashboard-header h1 {
+        font-size: 15px !important;
+    }
+
+    .all-project {
+        width: 64%;
+    }
+
+    span.fc-title {
+        float: none;
+    }
+
+    .table-search {
+        width: 72px;
+    }
+
+    .task-pagination .dataTables_paginate {
+        right: 65%;
+        margin-right: 25px;
+    }
+
+    .people-leaderboard .table-search {
+        right: 31% !important;
+    }
+
+    .people-pagination .dataTables_paginate {
+        right: 58% !important;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 61%;
+    }
+
+    .project_tickets_list .badge {
+        padding: 3px 3px;
+        font-size: 9px;
+    }
+
+    .project_tickets_list li a {
+        font-size: 11px;
+    }
+
+    .form-horizontal .control-label {
+        font-size: 12px;
+    }
+
+    .service-ticket-pagination .dataTables_paginate {
+        right: 38%;
+    }
+
+    .dashboard-header .dropdown-backdrop {
+        position: relative;
+    }
+
+    .dashboard-table table tr .dev_status.dev_popover {
+        position: absolute;
+        right: 56px;
+        top: 4px;
+    }
+
+    .my-feed {
+        width: 20% !important;
+    }
+
+    .feed-group li a, .feed-fav li a {
+        padding-left: 0 !important;
+    }
+
+    .wall .main-wall {
+        padding: 0 19px;
+    }
+
+    .task-top {
+        float: right;
+        width: 51%;
+    }
+
+    .people-header .people-history label {
+        font-size: 12px;
+    }
+
+    .people-header .people-history span {
+        font-size: 12px;
+    }
+
+    .people-header a.image-popup-vertical-fit {
+        width: 20%;
+        float: left;
+        margin-top: 11px;
+    }
+
+    .notes-heading .wall-tabs li a {
+        padding: 9px 10px;
+    }
+
+    .navbar-header .dropdown-backdrop {
+        position: relative;
+    }
+
+    .people-header .people-name h2 {
+        font-size: 11px;
+    }
+
+    .people-header .people-basic-detail h2 {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow: auto;
+    }
+
+    .dropdown-backdrop {
+        position: relative;
+    }
+
+    .navbar-header .navbar-toggle {
+        line-height: 46px;
+    }
+
+    #side-menu li a {
+        color: #54667a !important;
+    }
+
+    ul.nav.navbar-top-links.navbar-right.pull-right.add-icon {
+        margin-top: -45px;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.slimscrollsidebar {
+        display: none;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.collapse {
+        display: none;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.collapse.in {
+        display: grid;
+        background: #fafafa;
+        overflow: auto;
+        height: 274px;
+        border: 1px solid #c7bbbb;
+    }
+
+    ul.nav.navbar-top-links.navbar-right.pull-right.add-icon {
+        position: absolute;
+        top: 45px;
+        right: 0;
+    }
+
+    ul.dropdown-menu.nav.nav-second-level {
+        display: contents;
+        border: 0;
+        background: #fff;
+        width: 99%;
+    }
+
+    .navbar-top-links > li {
+        float: left;
+    }
+
+    .footer-copyright.pull-right {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    li.footer-project {
+        width: 108px;
+        float: left;
+    }
+
+    .right-dash-bttn {
+        left: 24px;
+    }
+
+    .btn-group.dash-view.open ul li:first-child {
+        display: none;
+    }
+
+    .overlay-content {
+        width: 100%;
+        height: 83% !important;
+    }
+
+    form.project-form.ajax-Form select#project_id {
+        width: 100%;
+    }
+
+    .jFiler-items-default .jFiler-item {
+        width: 100%;
+    }
+
+    .sticky_inner {
+        width: 251px !important;
+        left: -147px !important;
+    }
+
+    .right-sidebar {
+        display: none !important;
+        width: 357px;
+    }
+
+    .prmeeting-list-sort {
+        margin-right: 0;
+    }
+
+    .main-right-open .right-sidebar {
+        display: block !important;
+    }
+
+    .milestone-upper-tab .col-md-3.col-sm-4.col-xs-12 > label {
+        margin-left: 0 !important;
+    }
+
+    .project-milestone-pagination .dataTables_paginate {
+        margin-right: -15px;
+        margin-top: -9px;
+        width: 30%;
+    }
+
+    .service-ticket-pagination .dataTables_paginate {
+        right: 34%;
+        top: 37px;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 0;
+        position: relative;
+        top: -39px;
+    }
+
+    .wall .my-feed {
+        width: 100%;
+        position: relative;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .wall-right-sidebar {
+        display: none;
+    }
+
+    .wall .main-wall {
+        padding: 0
+    }
+
+    .parent-atch-img .atch-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .feeds-cmt .cm-detail {
+        width: 89.2%;
+        margin-left: 55px;
+    }
+
+    .personal-settings-tab {
+        margin-bottom: 20px;
+    }
+
+    .bg-title {
+        margin-top: 5px;
+    }
+
+    .setting-tab-contents {
+        margin-top: 10px;
+        margin-left: -7px;
+    }
+
+    .setting-tab-contents .new-project h1 {
+        margin-right: 0;
+    }
+
+    .bg-title h4 {
+        font-size: 13px;
+    }
+
+    .bg-title .breadcrumb a {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 13px;
+    }
+
+    .bg-title .breadcrumb .active {
+        font-size: 13px;
+    }
+
+    .profile-update-gap .white-box {
+        min-height: 229px;
+    }
+
+    .all-doc.js-split div#split-one {
+        flex-basis: unset !important;
+        width: 100%;
+    }
+
+    .all-doc.js-split div#split-two {
+        flex-basis: unset !important;
+        width: 100%;
+    }
+
+    .all-doc.js-split {
+        display: block !important;
+    }
+
+    #container .grid > li {
+        width: 276px;
+    }
+
+    .fixed_header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 9999;
+    }
+
+    div#page-wrapper {
+        margin-top: 47px;
+        margin-bottom: 66px;
+    }
+
+    .sttabs nav a span {
+        display: block;
+    }
+
+    .project-sidebar-min .project-sidenav {
+        width: 10%;
+    }
+
+    .project-sidebar-min .workdesk-task span {
+        display: none;
+    }
+
+    .project-sidebar-min .workdesk-task .nav li a {
+        padding: 10px 14px 7px 11px;
+    }
+
+    .project-sidebar-min .workdesk-task li {
+        height: 67px;
+    }
+
+    .about-workdesk-section-main {
+        height: 492px;
+    }
+
+    .abouttitle {
+        width: 100% !important;
+    }
+
+    .about-model-top {
+        top: 7%;
+    }
+
+    .about-model-top .about-workdesk {
+        width: 38%;
+        float: left;
+        margin-left: 18px;
+    }
+
+    .about-model-top .copyright-about {
+        float: right;
+        width: 56%;
+    }
+
+    .single_project.mile-filter .wd-task-list ul.wall-tabs.nav.nav-pills.nav-tabs.tab-hash.tab-ajax.tab-check li a {
+        font-size: 12px !important;
+    }
+
+    .project-sidebar-min .single_project #container .grid > li {
+        width: 203px;
+    }
+
+    ul.dropdown-menu.nav.nav-second-level li {
+        margin-top: 5px;
+    }
+
+    .task-top {
+        width: 59%;
+        margin-right: 0;
+    }
+
+    .table-search {
+        width: 116px;
+        float: none;
+        margin-right: 0;
+    }
+
+    .task-showentries select {
+        width: 15%;
+        height: 26px;
+        padding: 0;
+        position: absolute;
+        right: 9%;
+        top: 89px;
+    }
+
+    .task-showentries.no-padding {
+        width: 100%;
+        float: left;
+    }
+
+    .task-pagination .dataTables_paginate {
+        right: 26%;
+        top: 89px;
+    }
+
+    .task-top-btn.filter-open-close {
+        margin-top: 5px;
+    }
+
+    .nav.nav-pills .add-new a {
+        margin-top: 0;
+        padding: 4px 5px !important;
+        margin-right: 3px;
+        margin-left: -23px;
+    }
+
+    .meeting-list-update {
+        margin-left: 0;
+        margin-top: 0;
+        padding: 2px 2px !important;
+    }
+
+    .fc-toolbar.fc-header-toolbar .fc-center h2 {
+        font-size: 12px;
+    }
+
+    .fc-toolbar {
+        margin-top: 71px !important;
+        margin-left: 0 !important;
+    }
+
+    .fc-toolbar .fc-right {
+        float: right !important;
+        margin-right: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fc-toolbar .fc-left {
+        margin-left: 55px;
+    }
+
+    .gap-apr-list {
+        text-align: left !important;
+    }
+
+    .tickets-showentries.no-padding {
+        width: 100%;
+        float: left;
+    }
+
+    .tickets-showentries select {
+        width: 18%;
+        left: 148px;
+    }
+
+    .wd-task-list.parent-filter-property .table-search {
+        width: 100%;
+    }
+
+    .ticket-pagination .dataTables_paginate {
+        right: 48%;
+        top: 100px;
+    }
+
+    .wd-task-list.parent-filter-property #export-form .btn-group .btn {
+        margin-bottom: 11px;
+    }
+
+    .forms-data {
+        width: 100% !important;
+        display: inline-block !important;
+    }
+
+    .forms-data .input-group {
+        width: 100% !important;
+    }
+
+    .forms-data select {
+        width: 100% !important;
+    }
+
+    .clear-btn-workstream {
+        margin-top: -138px !important;
+    }
+
+    .workstream-content .workstream-post-content {
+        float: left;
+        width: 89% !important;
+    }
+
+    .Activity_timeline .steamline .sl-right {
+        width: 88%;
+    }
+
+    .Activity_timeline.white-box .timeline-body {
+        width: 100%;
+    }
+
+    .sug-pagination .dataTables_paginate {
+        right: 53%;
+    }
+
+    a.feedbackedit {
+        color: #fff;
+        position: absolute;
+        right: 4px;
+    }
+
+    .master-paging .dataTables_paginate {
+        right: 43%;
+        top: 83px;
+    }
+
+    .dasboard-main-heading {
+        margin-top: 0;
+    }
+
+    .project-milestone-title {
+        margin-left: -25px;
+        width: 62%;
+    }
+
+    .search_bar-milestone .table-search {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+    .exportcrv {
+        margin-right: 12px;
+        margin-top: 5px;
+    }
+
+    .pagination-people .people-ticket-pagination .dataTables_paginate {
+        right: 0;
+        top: -39px;
+        margin-top: 8px;
+    }
+
+    .outerticket .ticket .iconclass {
+        bottom: 8px;
+    }
+
+    .outerticket .boxclass {
+        right: 26px;
+        height: 243px;
+        left: 90px;
+    }
+
+    .responsive-fav-button {
+        margin-top: 15px;
+    }
+
+    .dashboard-customize.nw-dropdown-svg {
+        margin-right: -25px;
+    }
+
+    .user-withbtn-ticket-pagination .dataTables_paginate {
+        right: 35%;
+        top: 60px;
+    }
+
+    .user-pro-setting {
+        margin-top: 7px;
+    }
+
+    .main-landing-page {
+        display: grid;
+    }
+
+    .notification-settings-tabs .nav > li > a {
+        padding: 5px 7px;
+    }
+
+    .setting-tab-contents.notification-settings-tabs .vtabs .tabs-vertical {
+        width: 100%;
+        display: block;
+    }
+
+    .sticky_inner form {
+        height: 88% !important;
+    }
+
+    .add-icon .carets {
+        right: 78%;
+    }
+
+    .my_day_task_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .my_event_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .my_day_ticket_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .ticket_roaster_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .project_milestone_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .dropdown-user li a i {
+        margin-right: 8px;
+        height: 11px;
+        width: 18px;
+    }
+    h4.page-title.nwupdates-h {
+        width: 70%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        overflow: auto;
+    }
+
+    .dropdown-backdrop {
+        position: relative;
+    }
+
+    .navbar-header .navbar-toggle {
+        line-height: 46px;
+    }
+
+    #side-menu li a {
+        color: #54667a !important;
+    }
+
+    ul.nav.navbar-top-links.navbar-right.pull-right.add-icon {
+        margin-top: -45px;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.slimscrollsidebar {
+        display: none;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.collapse {
+        display: none;
+    }
+
+    ul.nav.navbar-top-links.navbar-left.side-icon.navbar-collapse.collapse.in {
+        display: grid;
+        background: #fafafa;
+        overflow: auto;
+        height: 226px;
+        border: 1px solid #c7bbbb;
+    }
+
+    ul.nav.navbar-top-links.navbar-right.pull-right.add-icon {
+        position: absolute;
+        top: 45px;
+        right: 0;
+    }
+
+    ul.dropdown-menu.nav.nav-second-level {
+        display: contents;
+        border: 0;
+        background: #fff;
+        width: 99%;
+    }
+
+    .navbar-top-links > li {
+        float: left;
+    }
+
+    .footer-copyright.pull-right {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    li.footer-project {
+        width: 122px;
+        float: left;
+    }
+
+    .right-dash-bttn .pull-left {
+        float: right !important;
+    }
+
+    .sticky_inner {
+        width: 247px !important;
+    }
+
+    .btn-group.dash-view.open ul li:first-child {
+        display: none;
+    }
+
+    form.project-form.ajax-Form select#project_id {
+        width: 100%;
+    }
+
+    .overlay-content {
+        width: 100%;
+        height: 79% !important;
+    }
+
+    .prmeeting-list-sort {
+        margin-right: 0;
+    }
+
+    #container .grid > li {
+        width: 270px !important;
+    }
+
+    .wall-right-sidebar {
+        display: none;
+    }
+
+    .wall .my-feed {
+        width: 30%;
+    }
+
+    .wall .main-wall {
+        padding-left: 168px;
+        /*margin-top: 50px;*/
+    }
+
+    .fixed_header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 9999;
+    }
+
+    /*.white-box {*/
+    /*margin-top: 20px;*/
+    /*}*/
+    .people-pagination .dataTables_paginate {
+        right: 50%;
+        top: -3px;
+        margin-top: 1px;
+    }
+
+    .people-leaderboard-upper-content .col-sm-3.showentries {
+        margin-left: 0 !important;
+    }
+
+    .people-leaderboard .table-search {
+        width: 191px !important;
+        right: 50% !important;
+    }
+
+    .setting-tab-contents {
+        margin-top: 10px;
+        margin-left: -7px;
+    }
+
+    div#page-wrapper {
+        margin-top: 47px;
+        margin-bottom: 44px;
+    }
+
+    .main-right-open .right-sidebar {
+        display: block !important;
+    }
+
+    .right-sidebar {
+        display: none !important;
+        width: 357px;
+    }
+
+    .sttabs nav a span {
+        display: block;
+    }
+
+    .project-sidebar-min .workdesk-task li {
+        height: 34px;
+    }
+
+    .project-sidebar-min .workdesk-task span {
+        display: none;
+    }
+
+    .ticket-pagination .dataTables_paginate {
+        right: 57%;
+        top: 60px;
+    }
+
+    .respnsiver-project-header {
+        margin-top: 12px;
+    }
+
+    .activity-detail img {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .back-text {
+        margin-top: 6px;
+    }
+
+    .login-box {
+        width: 52vw;
+    }
+
+    .leader-img img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .dash-table table tbody tr td h2 > a {
+        color: #3284c9;
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    .leader-name h2 {
+        padding-left: 4px !important;
+        line-height: 7px !important;
+    }
+
+    .cmt-sidebar label {
+        text-align: left !important;
+        font-size: 13px !important;
+    }
+
+    .ticket-comment-sidebar.js-slim-scroll .form-control-static {
+        font-size: 12px;
+    }
+
+    .dropdown-user li {
+        margin-bottom: 2px !important;
+    }
+
+    ul.dropdown-menu.nav.nav-second-level li {
+        margin-top: 5px;
+    }
+
+    .task-pagination .dataTables_paginate {
+        right: 72%;
+        top: 38px;
+    }
+
+    .task-showentries select {
+        right: 61%;
+        top: 38px;
+    }
+
+    .task-top {
+        float: right;
+        width: 34%;
+    }
+
+    .fc-toolbar {
+        margin-top: 69px !important;
+        margin-left: 0 !important;
+    }
+
+    .fc-toolbar.fc-header-toolbar .fc-center h2 {
+        font-size: 14px;
+    }
+
+    .service-ticket-pagination .dataTables_paginate {
+        right: 18%;
+        top: 38px;
+    }
+
+    .gap-apr-list {
+        text-align: left !important;
+    }
+
+    .tickets-showentries.no-padding {
+        width: 100%;
+        float: left;
+    }
+
+    .tickets-showentries select {
+        right: 45%;
+    }
+
+    .my-ticket-pagination .dataTables_paginate {
+        right: 56%;
+        top: 26px;
+        position: relative;
+    }
+
+    .forms-data {
+        width: 100% !important;
+        display: flex !important;
+    }
+
+    .forms-data .input-group {
+        width: 32% !important;
+    }
+
+    .forms-data select {
+        width: 30% !important;
+    }
+
+    .clear-btn-workstream {
+        margin-top: -62px !important;
+        margin-right: 6px;
+    }
+
+    .Activity_timeline .timeline-body {
+        width: 75%;
+        float: left;
+        word-wrap: break-word;
+    }
+
+    .Activity_timeline .steamline .sl-right {
+        padding-left: 15px;
+        margin-top: 10px;
+        float: left;
+        width: 94%;
+    }
+
+    .about-workdesk-section-main {
+        width: 100%;
+        top: -18px;
+        height: 259px;
+    }
+
+    .about-workdesk-section-main .modal-header h2 {
+        padding-bottom: 5px !important;
+
+    }
+
+    .about-workdesk-section-main .modal-header ul {
+        margin: 9px 10px;
+        height: 85px;
+        overflow: auto;
+    }
+
+    .sug-pagination .dataTables_paginate {
+        right: 31%;
+    }
+
+    .master-paging .dataTables_paginate {
+        right: 27%;
+        top: 83px;
+    }
+
+    .bg-title h4 {
+        margin-top: 0;
+    }
+
+    .outerticket .ticket .iconclass {
+        bottom: 7px;
+    }
+
+    .new-project h1 {
+        margin-right: 0 !important;
+    }
+
+    #side-popup .panel {
+        margin-bottom: 32px;
+    }
+
+    .project-milestone-title {
+        float: left;
+        margin-left: -25px;
+        width: 84%;
+        margin-top: 10px;
+    }
+
+    .search_bar-milestone .table-search {
+        width: 100%;
+        float: left;
+    }
+
+    /*.personal-setting-tab select.form-control.js-show-entries {*/
+    /*width: 125px !important;*/
+    /*}*/
+    .user-withbtn-ticket-pagination .dataTables_paginate {
+        right: 20%;
+        top: 30px;
+    }
+
+    .user-pro-setting {
+        margin-top: 7px;
+    }
+
+    .about-workdesk-section-main .modal-header h2 > img {
+        width: 23%;
+    }
+
+    .copyright-about {
+        float: right;
+        width: 44%;
+    }
+
+    .sticky_inner form {
+        height: 45% !important;
+    }
+
+    .add-icon .carets {
+        right: 78%;
+    }
+
+    .my_day_task_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .my_event_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .my_day_ticket_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .ticket_roaster_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+
+    .project_milestone_dashboard.ui-state-default {
+        width: 100% !important;
+    }
+    .right-dash-bttn {
+        margin-left: -6px;
+    }
+    .dropdown-user li a i {
+        margin-right: 8px;
+        width: 18px;
+        height: 10px;
+    }
+    .white-box {
+        min-height: 222px;
+    }
+}
+
+
+
+

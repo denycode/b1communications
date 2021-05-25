@@ -608,9 +608,51 @@ function initJS($outer) {
 
     }
 
+    if($outer.find('.ajax-Form').length > 0){
+        $outer.find('.ajax-Form input[name="_token"]').after('<input type="hidden" name="_change" value="0"/>')
+        $outer.on("keyup", ".ajax-Form input:text, .ajax-Form select",function(){
+            $(this).parents('.ajax-Form').find('input[name="_change"]').val(1)
+        });
+        $outer.on("change", ".ajax-Form select",function(){
+            $(this).parents('.ajax-Form').find('input[name="_change"]').val(1)
+        });
+    }
+
+    if($outer.find('a').length > 0){
+        $outer.find('a').on('click',function () {
+            var _change = $outer.find('input[name="_change"]').val();
+            var url = $(this).attr('href');
+            if(_change == 1 &&
+                /^(http|https|ftp):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/i.test(url)){
+                Swal.fire({
+                    title: 'Warning: Your changes will be lost unless saved.',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3ea6d0',
+                    cancelButtonColor: '#00000033',
+                    confirmButtonText: 'Discard Changes',
+                    customClass: {
+                        popup: 'swal-wd',
+                        confirmButton: 'btn btn-info',
+                        cancelButton : 'btn btn-light ml-1'
+                    },
+                    onBeforeOpen: function(ele) {
+                        $(ele).find('button.swal2-confirm.swal2-styled')
+                            .toggleClass('swal2-styled')
+                        $(ele).find('button.swal2-cancel.swal2-styled')
+                            .toggleClass('swal2-styled')
+                    }
+                }).then((result) => {
+                    if (result.value) {
+                        window.location.href = url;
+                    }
+                })
+                return false;
+            }
+        })
+    }
 }
-
-
 
 function details_in_popup(link, div_id) {
     //

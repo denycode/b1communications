@@ -231,11 +231,108 @@ $(document).ready(function () {
             }
         }
     }
+    ACFn.ajax_org_autoattendant_list = function (F,R) {
+        if(R.success){
+            $('#modal-popup').modal('hide');
+            if(R.grplist != ""){
+                var grplist = R.grplist.split('::');
+                if($('#list_autoattendants').val().indexOf($.trim(grplist[0])) == -1){
+                    //$('.dd-list').html('');
+                    $('#list_autoattendants').val(
+                        $('#list_autoattendants').val() == "" ?
+                            $.trim(grplist[0]) :
+                            $.trim($('#list_autoattendants').val()) + ',' + $.trim(grplist[0])
+                    );
+
+                    $('.l-autoattendants').append('<li class="list-group-item">\n' +
+                        '' + grplist[1] + '' +
+                        '<a href="javascript:void(0);" data-effectonid="list_autoattendants" ' +
+                        'onclick="removeOrgElements($(this),'+$.trim(grplist[0])+')" ' +
+                        'class="btn waves-effect waves-light btn-sm btn-danger pull-right">Delete</a>' +
+                        ' </li>');
+                }
+            }
+        }
+    }
+    ACFn.ajax_org_timegroup_list = function (F,R) {
+        if(R.success){
+            $('#modal-popup').modal('hide');
+            if(R.grplist != ""){
+                var grplist = R.grplist.split('::');
+                if($('#list_timegroups').val().indexOf($.trim(grplist[0])) == -1){
+                    //$('.dd-list').html('');
+                    $('#list_timegroups').val(
+                        $('#list_timegroups').val() == "" ?
+                            $.trim(grplist[0]) :
+                            $.trim($('#list_timegroups').val()) + ',' + $.trim(grplist[0])
+                    );
+
+                    $('.l-timegroups').append('<li class="list-group-item">\n' +
+                        '' + grplist[1] + '' +
+                        '<a href="javascript:void(0);" data-effectonid="list_timegroups" ' +
+                        'onclick="removeOrgElements($(this),'+$.trim(grplist[0])+')" ' +
+                        'class="btn waves-effect waves-light btn-sm btn-danger pull-right">Delete</a>' +
+                        ' </li>');
+                }
+            }
+        }
+    }
+    ACFn.ajax_org_timecondition_list = function (F,R) {
+        if(R.success){
+            $('#modal-popup').modal('hide');
+            if(R.grplist != ""){
+                var grplist = R.grplist.split('::');
+                if($('#list_timeconditions').val().indexOf($.trim(grplist[0])) == -1){
+                    //$('.dd-list').html('');
+                    $('#list_timeconditions').val(
+                        $('#list_timeconditions').val() == "" ?
+                            $.trim(grplist[0]) :
+                            $.trim($('#list_timeconditions').val()) + ',' + $.trim(grplist[0])
+                    );
+
+                    $('.l-timeconditions').append('<li class="list-group-item">\n' +
+                        '' + grplist[1] + '' +
+                        '<a href="javascript:void(0);" data-effectonid="list_timeconditions" ' +
+                        'onclick="removeOrgElements($(this),'+$.trim(grplist[0])+')" ' +
+                        'class="btn waves-effect waves-light btn-sm btn-danger pull-right">Delete</a>' +
+                        ' </li>');
+                }
+            }
+        }
+    }
+    ACFn.ajax_org_daynight_list = function (F,R) {
+        if(R.success){
+            $('#modal-popup').modal('hide');
+            if(R.grplist != ""){
+                var grplist = R.grplist.split('::');
+                if($('#list_daynights').val().indexOf($.trim(grplist[0])) == -1){
+                    //$('.dd-list').html('');
+                    $('#list_daynights').val(
+                        $('#list_daynights').val() == "" ?
+                            $.trim(grplist[0]) :
+                            $.trim($('#list_daynights').val()) + ',' + $.trim(grplist[0])
+                    );
+
+                    $('.l-daynights').append('<li class="list-group-item">\n' +
+                        '' + grplist[1] + '' +
+                        '<a href="javascript:void(0);" data-effectonid="list_daynights" ' +
+                        'onclick="removeOrgElements($(this),'+$.trim(grplist[0])+')" ' +
+                        'class="btn waves-effect waves-light btn-sm btn-danger pull-right">Delete</a>' +
+                        ' </li>');
+                }
+            }
+        }
+    }
 
 
     ACFn.ajax_org_access = function (F , R) {
         $('.orgname').text('').text(R.organization_name);
         $('[title="Access"]').removeClass('btn-success').addClass('btn-info');
+        F.removeClass('btn-info').addClass('btn-success');
+    }
+
+    ACFn.ajax_sms_compatible = function (F , R) {
+        $('[title="SMS Compatible"]').removeClass('btn-success').addClass('btn-info');
         F.removeClass('btn-info').addClass('btn-success');
     }
 })

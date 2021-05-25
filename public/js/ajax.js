@@ -494,7 +494,7 @@ function AjaxCompleteFunctions() {
                 R.messageType, callback);
         }
     };
-    this.display_message = function (title, description, type, callback) {
+    this.display_message = function (title, description, type, callback, timer = 1000) {
         if (typeof (swal) === 'function') { //console.log("swal32312");
             // swal(title, description, type, callback)
             var icontype = '<i class="icon-check"></i> ';
@@ -504,7 +504,7 @@ function AjaxCompleteFunctions() {
             var swal32312 = swal.fire({
                 title: icontype+title,
                 text: description,
-                timer: 1000,
+                timer: timer,
                 customClass: 'swal-wd',
                 type: type,
                 showConfirmButton:false,
@@ -662,6 +662,8 @@ function AjaxCompleteFunctions() {
             });
         } else if (confirm(title + '\n' + text)) {
             callback(params);
+        } else {
+            nc(params);
         }
     };
     this.json_parse = function (data54654645234523) {

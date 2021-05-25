@@ -21466,7 +21466,7 @@ a.badge-purple.focus, a.badge-purple:focus {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     background-color: #fff;
     border: 1px solid #a8aeb5
 }
@@ -38717,7 +38717,7 @@ ul.list-style-none li a:hover {
 }
 
 .sidebar-nav ul li a {
-    color: #1b1b1b;
+    color: #000000;
     padding: 10px 35px 10px 15px;
     display: block;
     align-items: center;
@@ -38909,7 +38909,7 @@ ul#themecolors li a.working:before {
 }
 
 form label, table th {
-    font-weight: 400
+    font-weight: 500
 }
 
 .chatonline li a span, .form-control {
