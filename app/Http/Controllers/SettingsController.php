@@ -62,7 +62,7 @@ class SettingsController extends Controller
                 ->response();
         }
     }
-
+    //need to change here
     public function addUser($end_uid,Ajax $ajax){
         $uid = Crypt::decrypt($end_uid);
         $profiles = Profile::where('is_active',1)
